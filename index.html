@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virel | Official Brand Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .product-grid button span {
+      display: block;
+      margin-top: 8px;
+      color: #d3342d;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+    }
+  </style>
+
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#top">VIREL</a>
+  <nav>
+    <a href="#essentials">Essentials</a>
+    <a href="#shorts">Shorts</a>
+    <a href="#womens-tanks">Women’s Tanks</a>
+    <a href="#size-guide">Size Guide</a>
+    <a href="#order">Order</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Drop Preview</p>
+    <h1>VIREL</h1>
+    <p class="hero-text">Made for the people. Select your piece, choose your size, and submit your preorder request.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#essentials">Shop The Drop</a>
+      <a class="btn secondary" href="#order">Preorder</a>
+    </div>
+  </section>
+
+  <section class="marquee">
+    <span>VIREL</span><span>MADE FOR THE PEOPLE</span><span>LIMITED DROP</span><span>PREORDER REQUESTS OPEN</span>
+  </section>
+
+  <section class="collection-section" id="essentials">
+    <div class="section-heading"><p>01 / Essentials</p><h2>Essentials</h2></div>
+    <p class="collection-description">260 GSM • Oversized Fit • 100% Cotton • $30</p>
+    <img class="mockup-board" src="virel-essentials.png" alt="Virel Essentials collection mockup">
+    <div class="product-grid">
+      <button onclick="selectProduct('Virel Essentials','Cream Virel.COS Tee')">Cream Virel.COS Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Camo Virel.COS Tee')">Camo Virel.COS Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Grey / Red Virel.COS Tee')">Grey / Red Virel.COS Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Black / Orange Virel.COS Tee')">Black / Orange Virel.COS Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Pink Sin City Tee')">Pink Sin City Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Navy Sin City Tee')">Navy Sin City Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Green / Red Sin City Tee')">Green / Red Sin City Tee <span>$30</span></button>
+      <button onclick="selectProduct('Virel Essentials','Black / Pink Sin City Tee')">Black / Pink Sin City Tee <span>$30</span></button>
+    </div>
+  </section>
+
+  <section class="collection-section" id="shorts">
+    <div class="section-heading"><p>02 / Shorts</p><h2>Shorts & Jorts</h2></div>
+    <p class="collection-description">3/4 Shorts — $35 • Jorts — $40 • Relaxed Fit • Everyday Streetwear</p>
+    <img class="mockup-board" src="shorts-jorts.png" alt="Virel shorts and jorts collection mockup">
+    <div class="product-grid">
+      <button onclick="selectProduct('Shorts & Jorts','Cream 3/4 Length Shorts')">Cream 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Camo 3/4 Length Shorts')">Camo 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Grey / Red 3/4 Length Shorts')">Grey / Red 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Black / Orange 3/4 Length Shorts')">Black / Orange 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Pink 3/4 Length Shorts')">Pink 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Navy 3/4 Length Shorts')">Navy 3/4 Shorts <span>$35</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Light Blue Jorts')">Light Blue Jorts <span>$40</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Washed Blue Jorts')">Washed Blue Jorts <span>$40</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Washed Black Jorts')">Washed Black Jorts <span>$40</span></button>
+      <button onclick="selectProduct('Shorts & Jorts','Navy / White Jorts')">Navy / White Jorts <span>$40</span></button>
+    </div>
+  </section>
+
+  <section class="collection-section" id="womens-tanks">
+    <div class="section-heading"><p>03 / Women’s</p><h2>Women’s Tanks</h2></div>
+    <p class="collection-description">Form-Fitting Silhouette • True To Size • Streetwear Staple • $30</p>
+    <img class="mockup-board" src="womens-tanks.png" alt="Virel women's tank tops collection mockup">
+    <div class="product-grid">
+      <button onclick="selectProduct('Women’s Tanks','Cream Honor Code Tank')">Cream Tank <span>$30</span></button>
+      <button onclick="selectProduct('Women’s Tanks','Navy Honor Code Tank')">Navy Tank <span>$30</span></button>
+      <button onclick="selectProduct('Women’s Tanks','Grey Honor Code Tank')">Grey Tank <span>$30</span></button>
+      <button onclick="selectProduct('Women’s Tanks','Black Honor Code Tank')">Black Tank <span>$30</span></button>
+    </div>
+  </section>
+
+  <section class="collection-section" id="size-guide">
+    <div class="section-heading"><p>04 / Sizing</p><h2>Size Guide</h2></div>
+    <p class="collection-description">Review sizing before placing your preorder.</p>
+    <img class="mockup-board" src="size-guide.png" alt="Virel size guide">
+  </section>
+
+  <section class="order-section" id="order">
+    <div class="section-heading center"><p>Preorder Request</p><h2>Lock In Your Piece</h2></div>
+    <form action="https://formsubmit.co/zzootiez@gmail.com" method="POST" class="order-form" id="preorderForm">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_subject" value="New Virel Preorder">
+      <input type="hidden" id="squareRedirect" name="_next" value="https://square.link/u/GPjylFW4">
+
+      <label>Collection
+        <select id="collectionSelect" name="Collection" required onchange="updateItems()">
+          <option value="">Choose a collection</option>
+          <option>Virel Essentials</option>
+          <option>Shorts & Jorts</option>
+          <option>Women’s Tanks</option>
+        </select>
+      </label>
+
+      <label>Product
+        <select id="itemSelect" name="Product" required onchange="updatePaymentLink()">
+          <option value="">Choose a collection first</option>
+        </select>
+      </label>
+
+      <label>Size
+        <select id="sizeSelect" name="Size" required>
+          <option value="">Choose size</option>
+        </select>
+      </label>
+
+      <label>Quantity
+        <select name="Quantity" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4+</option>
+        </select>
+      </label>
+
+      <label>Name<input type="text" name="Name" required></label>
+      <label>Email<input type="email" name="Email" required></label>
+      <label>Instagram<input type="text" name="Instagram" placeholder="@username"></label>
+      <label>Phone<input type="text" name="Phone" placeholder="Optional"></label>
+      <label class="full">Shipping Address<textarea name="Shipping Address" placeholder="Street address, city, state, ZIP" required></textarea></label>
+      <label class="full">Notes<textarea name="Notes" placeholder="Fit questions, pickup/shipping notes, etc."></textarea></label>
+
+      <button type="submit">Pre-Order & Pay</button>
+      <p class="form-note">Submit your order details, then complete payment through Square to secure your preorder.</p>
+    </form>
+  </section>
+</main>
+
+<footer><p>© 2026 Virel</p><p>Made for those who move different.</p></footer>
+
+<script>
+const items = {
+  "Virel Essentials": [
+    "Cream Virel.COS Tee",
+    "Camo Virel.COS Tee",
+    "Grey / Red Virel.COS Tee",
+    "Black / Orange Virel.COS Tee",
+    "Pink Sin City Tee",
+    "Navy Sin City Tee",
+    "Green / Red Sin City Tee",
+    "Black / Pink Sin City Tee"
+  ],
+  "Shorts & Jorts": [
+    "Cream 3/4 Length Shorts",
+    "Camo 3/4 Length Shorts",
+    "Grey / Red 3/4 Length Shorts",
+    "Black / Orange 3/4 Length Shorts",
+    "Pink 3/4 Length Shorts",
+    "Navy 3/4 Length Shorts",
+    "Light Blue Jorts",
+    "Washed Blue Jorts",
+    "Washed Black Jorts",
+    "Navy / White Jorts"
+  ],
+  "Women’s Tanks": [
+    "Cream Honor Code Tank",
+    "Navy Honor Code Tank",
+    "Grey Honor Code Tank",
+    "Black Honor Code Tank"
+  ]
+};
+
+const sizes = {
+  "Virel Essentials": ["S", "M", "L", "XL", "2XL", "3XL"],
+  "Women’s Tanks": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+  "Shorts & Jorts": ["S", "M", "L", "XL", "2XL", "3XL"]
+};
+
+const paymentLinks = {
+  "Virel Essentials": "https://square.link/u/GPjylFW4",
+  "Women’s Tanks": "https://square.link/u/PwoonvCU",
+  "3/4 Shorts": "https://square.link/u/pgXY1lE3",
+  "Jorts": "https://square.link/u/VL9mReM2"
+};
+
+function updateItems(selectedItem = "") {
+  const collection = document.getElementById("collectionSelect").value;
+  const itemSelect = document.getElementById("itemSelect");
+  const sizeSelect = document.getElementById("sizeSelect");
+
+  itemSelect.innerHTML = "";
+  sizeSelect.innerHTML = "";
+
+  const itemPlaceholder = document.createElement("option");
+  itemPlaceholder.value = "";
+  itemPlaceholder.textContent = collection ? "Choose product" : "Choose a collection first";
+  itemSelect.appendChild(itemPlaceholder);
+
+  const sizePlaceholder = document.createElement("option");
+  sizePlaceholder.value = "";
+  sizePlaceholder.textContent = collection ? "Choose size" : "Choose a collection first";
+  sizeSelect.appendChild(sizePlaceholder);
+
+  if (items[collection]) {
+    items[collection].forEach(item => {
+      const option = document.createElement("option");
+      option.value = item;
+      option.textContent = item;
+      if (item === selectedItem) option.selected = true;
+      itemSelect.appendChild(option);
+    });
+  }
+
+  if (sizes[collection]) {
+    sizes[collection].forEach(size => {
+      const option = document.createElement("option");
+      option.value = size;
+      option.textContent = size;
+      sizeSelect.appendChild(option);
+    });
+  }
+
+  updatePaymentLink();
+}
+
+function updatePaymentLink() {
+  const collection = document.getElementById("collectionSelect").value;
+  const product = document.getElementById("itemSelect").value;
+  const squareRedirect = document.getElementById("squareRedirect");
+
+  if (product.includes("Jorts")) {
+    squareRedirect.value = paymentLinks["Jorts"];
+  } else if (product.includes("3/4")) {
+    squareRedirect.value = paymentLinks["3/4 Shorts"];
+  } else if (collection === "Women’s Tanks") {
+    squareRedirect.value = paymentLinks["Women’s Tanks"];
+  } else {
+    squareRedirect.value = paymentLinks["Virel Essentials"];
+  }
+}
+
+function selectProduct(collection, product) {
+  document.getElementById("collectionSelect").value = collection;
+  updateItems(product);
+  document.getElementById("order").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+</body>
+</html>
